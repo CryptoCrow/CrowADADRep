@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP100:IdentityReference",
+            "Link": "CIP100:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "givenName": "Crypto Crow",
+    "motivations": "My motivation stems from my desire to see Cardano flourish and become the #1 underlining chain to all things of importance on a global scale while empowering the public with a means to interact and trade financially regardless of social, financial or political status.",
+    "objectives": "I aim to become a voice for the interests of the Cardano community and ensure the integrity of the chain, its treasury use and progress overall.",
+    "paymentAddress": "addr_test1qrdrrp67pw77xu8sp45hqdkkzy3j05hhcnsyry0csle9jnfrnqvfv7dq7u5nrek5jxjeuhs784qhcrlscdh0z4q52nrs6zrjmk",
+    "qualifications": "I've been an avid Cardano Youtuber and Educator since December of 2017 where I first discovered the project and have followed its development ever since. I'm honest to the core (some say to a detriment) but my motives are always pure and evolve around empowering my friends, family and viewers the best way I can.",
+    "references": [
+      {
+        "@type": "Other",
+        "label": "Label",
+        "uri": "https://www.youtube.com/@CryptoCrowOfficial"
+      },
+      {
+        "@type": "Other",
+        "label": "Label",
+        "uri": "https://cryptocrow.io"
+      },
+      {
+        "@type": "Other",
+        "label": "Label",
+        "uri": "https://twitter.com/jasonappleton"
+      },
+      {
+        "@type": "Other",
+        "label": "Label",
+        "uri": "https://instagram.com/crowofcrypto"
+      }
+    ]
+  }
+}
