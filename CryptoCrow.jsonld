@@ -54,10 +54,10 @@
   "hashAlgorithm": "blake2b-256",
   "body": {
     "givenName": "CryptoCrow",
-    "motivations": "The growth of a truly decentralized blockchain that empowers developers and users alike across the globe is what motivates me.",
-    "objectives": "To continue to learn about and educate on the Cardano ecosystem while establishing a voice for the people that trust me to speak for them through voting.",
+    "motivations": "Helping those with a little gain a lot across the globe.",
+    "objectives": "Spread decentralization globally through Cardano and its ecosystem.",
     "paymentAddress": "addr_test1qrdrrp67pw77xu8sp45hqdkkzy3j05hhcnsyry0csle9jnfrnqvfv7dq7u5nrek5jxjeuhs784qhcrlscdh0z4q52nrs6zrjmk",
-    "qualifications": "I've been a Cardano educator on Youtube since 2017, always aiming to help people understand the tech, plans for the future and its progress along the way. I'm fairly technical, though not a developer. I used to be in the mortgage industry starting as a Loan Officer and left the industry as VP of Sales for a national lender.",
+    "qualifications": "I've been a Cardano Youtuber since 2017 and have followed its growth and progress ever since. ",
     "references": [
       {
         "@type": "Other",
