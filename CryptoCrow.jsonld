@@ -11,8 +11,8 @@
           "@container": "@set",
           "@context": {
             "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
-            "Identity": "CIP100:IdentityReference",
-            "Link": "CIP100:LinkReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
             "Other": "CIP100:OtherReference",
             "label": "CIP100:reference-label",
             "uri": "CIP100:reference-uri",
@@ -53,31 +53,37 @@
   "authors": [],
   "hashAlgorithm": "blake2b-256",
   "body": {
+    "doNotList": false,
     "givenName": "CryptoCrow",
-    "motivations": "Helping those with a little gain a lot across the globe.",
-    "objectives": "Spread decentralization globally through Cardano and its ecosystem.",
-    "paymentAddress": "addr_test1qrdrrp67pw77xu8sp45hqdkkzy3j05hhcnsyry0csle9jnfrnqvfv7dq7u5nrek5jxjeuhs784qhcrlscdh0z4q52nrs6zrjmk",
-    "qualifications": "I've been a Cardano Youtuber since 2017 and have followed its growth and progress ever since. ",
+    "motivations": "I simply want to be one of the first 100 Dreps because I believe in Cardano's goals and like the United States, Cardano's governance is a powerful statement to the world that we can do things differently and achieve new heights through community involvement in key decisions with the freedom to discuss and resolve Cardano's interests together.",
+    "objectives": "Cardano educator since 2017 on Youtube. Having followed on Cardano's progress since near inception, my goal is to continue building awareness while helping to ensure its governance is handled with integrity and the best interest of the community in mind in all things.",
+    "paymentAddress": "addr1qyyegwcju83f773mxunjq4wh6hrxk289sjgmv3nsrau74madphptys5te8x0se97gmxxfx28jfg8r7e0rxlsw6qvh7ts76wlyh",
+    "qualifications": "A Cardano educator and builder since 2017 I've brought more people to the blockchain over the years than most and I genuinely care about everyone in the ecosystem. I've demonstrated over the years that I stand with integrity and the interests of my viewers and those in the ecosystem.",
     "references": [
       {
-        "@type": "Other",
-        "label": "Label",
+        "@type": "Link",
+        "label": "Crows First Cardano Video in 2017",
+        "uri": "https://youtu.be/lrlD4NWPLRI?si=90tNGRXc_ZyGGX0h"
+      },
+      {
+        "@type": "Identity",
+        "label": "Crypto Crow Youtube",
         "uri": "https://www.youtube.com/@CryptoCrowOfficial"
       },
       {
-        "@type": "Other",
-        "label": "Label",
+        "@type": "Identity",
+        "label": "Crow Official Website",
         "uri": "https://cryptocrow.io"
       },
       {
-        "@type": "Other",
-        "label": "Label",
-        "uri": "https://twitter.com/jasonappleton"
+        "@type": "Identity",
+        "label": "Crow's Twitter",
+        "uri": "https://x.com/jasonappleton"
       },
       {
-        "@type": "Other",
-        "label": "Label",
-        "uri": "https://instagram.com/crowofcrypto"
+        "@type": "Identity",
+        "label": "Crow's Instagram",
+        "uri": "https://www.instagram.com/crowofcrypto/"
       }
     ]
   }
